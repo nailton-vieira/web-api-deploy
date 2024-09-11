@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
   res.send('Servidor Rodando')
 }) */
 
-  app.get("/api", (req, res) => {
+  app.get("/", (req, res) => {
     res.json({ message: "Bem vindo ao Servidor!" });
   });
 

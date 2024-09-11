@@ -3,7 +3,7 @@ const app = express()
 const port = 3001
 
 app.get('/', (req, res) => {
-  res.send('Servidor Rodando')
+  res.json({ message: "Servidor esta Rodando!" });
 }) 
 
   app.get("/api", (req, res) => {
